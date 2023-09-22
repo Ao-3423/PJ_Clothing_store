@@ -5,103 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clothing Store</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
       <div class="nav-container">
         <a href="index.html">
-          <img src="imgs/logo-01.png" class="logonav">
+          <img src="imgs/logo-01.png" class="logonav" />
         </a>
         <div class="nav-profile">
           <h1 class="nav-profile-name">BUY</h1>
           <div class="nav-profile-cart">
             <i class="fas fa-cart-shopping"></i>
-            <div  class="cartcount" >
-                5
+            <div class="cartcount">5</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="sideber">
+        <input type="text" class="sideber-search" placeholder="ค้นหา..." />
+        <h4>ผู้ชาย</h4>
+        <a href="#" class="sideber-items"> เสื้อ </a>
+        <a href="#" class="sideber-items"> เสื้อนอก </a>
+        <a href="#" class="sideber-items"> กางเกง </a>
+        <a href="#" class="sideber-items"> ชุดลำลอง </a>
+        <a href="#" class="sideber-items"> เครื่องแต่งกายอื่นๆ </a>
+        <h4>ผู้หญิง</h4>
+        <a href="#" class="sideber-items"> เสื้อ </a>
+        <a href="#" class="sideber-items"> เสื้อนอก </a>
+        <a href="#" class="sideber-items"> กางเกง </a>
+        <a href="#" class="sideber-items"> กระโปรง </a>
+        <a href="#" class="sideber-items"> ชุดเดรส และ จั๊มพ์สูท </a>
+        <a href="#" class="sideber-items"> ชุดลำลอง </a>
+        <a href="#" class="sideber-items"> เครื่องแต่งกายอื่นๆ </a>
+      </div>
+      <div class="product">
+        
+        <div class="product-items">
+          <img
+            class="product-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467775/sub/goods_467775_sub14.jpg?width=750"
+            alt=""
+          />
+          <p style="font-size: 1.2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+          <p style="font-size: 1vw">590 THB</p>
+        </div>
+
+        <div class="product-items">
+          <img
+            class="product-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467774/sub/goods_467774_sub15.jpg?width=750"
+            alt=""
+          />
+          <p style="font-size: 1.2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+          <p style="font-size: 1vw">590 THB</p>
+        </div>
+
+        <div class="product-items">
+          <img
+            class="product-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467525/sub/goods_467525_sub14.jpg?width=750"
+            alt=""
+          />
+          <p style="font-size: 1.2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+          <p style="font-size: 1vw">590 THB</p>
+        </div>
+
+        <div class="product-items">
+          <img
+            class="product-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467773/sub/goods_467773_sub14.jpg?width=750"
+            alt=""
+          />
+          <p style="font-size: 1.2vw">เสื้อสเวต แขนยาว KAWS</p>
+          <p style="font-size: 1vw">990 THB</p>
+        </div>
+        <div class="product-items">
+          <img
+            class="product-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467395/sub/goods_467395_sub14.jpg?width=750"
+            alt=""
+          />
+          <p style="font-size: 1.2vw">เสื้อสเวต แขนยาว KAWS</p>
+          <p style="font-size: 1vw">990 THB</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal" style="display: none;"> #style="display: none; ปิดป๊อปอัพของสิ้นค้าไว้
+      <div class="modal-bg"></div>
+      <div class="modal-page">
+        <h1>เสื้อยืดแขนสั้น</h1>
+        <br />
+        <div class="modalesc-content">
+          <img
+            class="modalesc-img"
+            src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467775/sub/goods_467775_sub14.jpg?width=750"
+            alt=""
+          />
+          <div class="modalesc-detail">
+            <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+            <p style="font-size: 1.2vw">590 THB</p>
+            <p style="color: #adadad">
+              KAWS ศิลปินร่วมสมัย เปิดตัวคอลเลคชัน UT
+              ในโอกาสเฉลิมฉลองการวางจำหน่ายหนังสือภาพ
+            </p>
+            <br />
+            <div class="btn-control">
+              <button class="btn">Close</button
+              ><button class="btn btn-buy">Add to cart</button>
             </div>
           </div>
         </div>
-    </nav>
-<div class="content">
-  <div class="sideber">
-    <input type="text" class="sideber-search" placeholder="ค้นหา..." >
-    <h4>ผู้ชาย</h4>
-    <a href="#" class="sideber-items">
-      เสื้อ
-    </a>
-    <a href="#" class="sideber-items">
-      เสื้อนอก
-    </a>
-    <a href="#" class="sideber-items">
-      กางเกง
-    </a>
-    <a href="#" class="sideber-items">
-      ชุดลำลอง
-    </a>
-    <a href="#" class="sideber-items">
-      เครื่องแต่งกายอื่นๆ
-    </a>
-    <h4>ผู้หญิง</h4>
-    <a href="#" class="sideber-items">
-      เสื้อ
-    </a>
-    <a href="#" class="sideber-items">
-      เสื้อนอก
-    </a>
-    <a href="#" class="sideber-items">
-      กางเกง
-    </a>
-    <a href="#" class="sideber-items">
-      กระโปรง
-    </a>
-     <a href="#" class="sideber-items">
-      ชุดเดรส และ จั๊มพ์สูท
-    </a>
-    <a href="#" class="sideber-items">
-      ชุดลำลอง
-    </a>
-    <a href="#" class="sideber-items">
-      เครื่องแต่งกายอื่นๆ
-    </a>
-  </div>
-  <div class="product">
-
-    <div class="product-items">
-      <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
-      <p style="font-size: 1.2vw;">  product name</p>
-      <p style="font-size: 1vw;">500 THB</p>
-
+      </div>
     </div>
-   
-    <div class="product-items">
-      <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
-      <p style="font-size: 1.2Vw;">  product name</p>
-      <p style="font-size: 1vw;">500 THB</p>
 
-    </div>
-   
-    <div class="product-items">
-      <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
-      <p style="font-size: 1.2Vw;">  product name</p>
-      <p style="font-size: 1vw;">500 THB</p>
-
-    </div>
-  
-    <div class="product-items">
-      <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
-      <p style="font-size: 1.2Vw;">  product name</p>
-      <p style="font-size: 1vw;">500 THB</p>
-
-    </div>
-    <div class="product-items">
-      <img class="product-img" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
-      <p style="font-size: 1.2Vw;">  product name</p>
-      <p style="font-size: 1vw;">500 THB</p>
-
-    </div>
-  </div>
-</div>
-  
   </body>
 </html>
