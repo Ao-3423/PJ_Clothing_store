@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clothing Store</title>
+    <!-- ดึงไฟล์ CSS มาใช้ -->
     <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
@@ -15,6 +16,7 @@
   </head>
   <body>
     <nav>
+      <!-- logo ด้านบน -->
       <div class="nav-container">
         <a href="index.html">
           <img src="imgs/logo-01.png" class="logonav" />
@@ -28,6 +30,7 @@
         </div>
       </div>
     </nav>
+    <!-- ค้นหา กับรายการต่าง -->
     <div class="content">
       <div class="sideber">
         <input type="text" class="sideber-search" placeholder="ค้นหา..." />
@@ -46,6 +49,7 @@
         <a href="#" class="sideber-items"> ชุดลำลอง </a>
         <a href="#" class="sideber-items"> เครื่องแต่งกายอื่นๆ </a>
       </div>
+      <!-- รายการสินคากับราคา -->
       <div class="product">
         <div class="product-items">
           <img
@@ -134,8 +138,10 @@
         </div>
       </div>
     </div>
+    <!-- รายละเอียดสินค้า -->
     <div class="modal" style="display: none">
-      #style="display: none; ปิดป๊อปอัพของสิ้นค้าไว้
+      <!-- ปิดไว้style="display: none" -->
+
       <div class="modal-bg"></div>
       <div class="modal-page">
         <h1>เสื้อยืดแขนสั้น</h1>
@@ -159,6 +165,106 @@
               ><button class="btn btn-buy">Add to cart</button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- จำนวนสินค้าและซื้อ -->
+    <div class="modal" style="display: none">
+      <!-- ปิดไว้style="display: none" -->
+      <div class="modal-bg"></div>
+      <div class="modal-page">
+        <h1>My cart</h1>
+        <br />
+        <div class="cartlist">
+          <div class="cartlist-items">
+            <div class="cartlist-left">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467775/sub/goods_467775_sub14.jpg?width=750"
+                alt=""
+              />
+              <div class="cartlist-detail">
+                <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+                <p style="font-size: 1.2vw">590 THB</p>
+              </div>
+            </div>
+            <div class="cartlist-right">
+              <p class="btnc">-</p>
+              <p style="margin: 0 20px">1</p>
+              <p class="btnc">+</p>
+            </div>
+          </div>
+          <div class="cartlist-items">
+            <div class="cartlist-left">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467774/sub/goods_467774_sub15.jpg?width=750"
+                alt=""
+              />
+              <div class="cartlist-detail">
+                <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+                <p style="font-size: 1.2vw">590 THB</p>
+              </div>
+            </div>
+            <div class="cartlist-right">
+              <p class="btnc">-</p>
+              <p style="margin: 0 20px">1</p>
+              <p class="btnc">+</p>
+            </div>
+          </div>
+          <div class="cartlist-items">
+            <div class="cartlist-left">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467525/sub/goods_467525_sub14.jpg?width=750"
+                alt=""
+              />
+              <div class="cartlist-detail">
+                <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+                <p style="font-size: 1.2vw">590 THB</p>
+              </div>
+            </div>
+            <div class="cartlist-right">
+              <p class="btnc">-</p>
+              <p style="margin: 0 20px">1</p>
+              <p class="btnc">+</p>
+            </div>
+          </div>
+          <div class="cartlist-items">
+            <div class="cartlist-left">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467525/sub/goods_467525_sub14.jpg?width=750"
+                alt=""
+              />
+              <div class="cartlist-detail">
+                <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+                <p style="font-size: 1.2vw">590 THB</p>
+              </div>
+            </div>
+            <div class="cartlist-right">
+              <p class="btnc">-</p>
+              <p style="margin: 0 20px">1</p>
+              <p class="btnc">+</p>
+            </div>
+          </div>
+          <div class="cartlist-items">
+            <div class="cartlist-left">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/467525/sub/goods_467525_sub14.jpg?width=750"
+                alt=""
+              />
+              <div class="cartlist-detail">
+                <p style="font-size: 2vw">เสื้อยืดแขนสั้น KAWS UT</p>
+                <p style="font-size: 1.2vw">590 THB</p>
+              </div>
+            </div>
+            <div class="cartlist-right">
+              <p class="btnc">-</p>
+              <p style="margin: 0 20px">1</p>
+              <p class="btnc">+</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-control">
+          <button class="btn">Cancel</button>
+          <button class="btn btn-buy">Buy</button>
         </div>
       </div>
     </div>
